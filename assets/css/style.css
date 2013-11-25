@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,latin-ext);
+* { padding: 0px; margin: 0px; border: 0px; }
+body { font-size: 12px; font-family: 'Ubuntu', sans-serif; }
+
+#wrapper { width: 1100px; margin: auto; }
+
+
+.UstCerceve {
+    height: 190px;
+}
+.UstMenuCerceve {
+    margin-left: 85px;
+    width: 994px;
+}
+.UstMenu1 {
+    background: url("../images/i.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 11px;
+    height: 30px;
+}
+.UstMenu1_saga {
+    color: #373636;
+    float: right;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 6px;
+}
+.UstMenu1_saga div______________________ {
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 20px;
+    padding: 0 20px 0 28px;
+}
+.UstMenu1 a {
+    color: #4E4E4E;
+    text-decoration: none;
+}
+.UstMenu1 a:hover {
+    color: #D81317;
+}
+.UstMenu2 {
+    background: url("../images/i.png") no-repeat scroll 0 -135px rgba(0, 0, 0, 0);
+    height: 24px;
+}
+.UstMenu2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.UstMenu2 a:hover {
+}
+.UstMenu2 .isl a:hover {
+    color: #000000;
+}
+.UstMenu2 .b {
+    background: url("../images/i.png") no-repeat scroll 0 -159px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    height: 14px;
+    padding: 0 5px;
+}
+.UstMenu2_saga {
+    float: right;
+    margin-top: 10px;
+    width: 233px;
+}
+.UstMenu2_saga .b {
+    line-height: 14px;
+    text-align: center;
+}
+.LogoCerceve {
+    margin: 0 auto;
+    padding: 0 21px 0 39px;
+    width: 1040px;
+}
+.logo {
+    background: url("../images/i.png") repeat scroll 0 -30px rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 105px;
+    width: 232px;
+}
+.spk {
+    background: url("../images/i.png") repeat scroll -232px -30px rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 105px;
+    margin-left: 453px;
+    width: 75px;
+}
+.UyeMenusu {
+    background: url("/images/CALISMA_UYE_ACILIR_MENU.png") repeat scroll right center rgba(0, 0, 0, 0);
+}
+.UyeMenusu .isl {
+    background-color: #D41317;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 122px;
+}
+.UyeMenusu:hover .isl {
+    display: block;
+    z-index: 6;
+}
+.UyeMenusu .isl a {
+    display: block;
+    padding: 4px;
+}
+.UyeMenusu .isl a:hover {
+    background-color: #E4ECEC;
+}
+.AcilirMenu * {
+    border: 0 none;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 500;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    z-index: 100;
+}
+.AcilirMenu {
+    display: table;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+.AcilirMenu a {
+    background: url("../images/i.png") no-repeat scroll 0 -567px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    height: 31px;
+    line-height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+}
+.AcilirMenu a:hover {
+    color: #FFDD00;
+}
+.AcilirMenu li {
+    float: left;
+    height: 25px;
+    position: relative;
+    width: auto;
+}
+.amKatman2 {
+    border-bottom: 1px solid #E57174;
+    display: none;
+    float: left;
+    height: auto;
+    left: 1px;
+    position: absolute;
+    top: 27px;
+    width: 217px;
+    z-index: 100;
+}
+.amKatman2 a {
+    background: url("../images/i.png") no-repeat scroll 0 -204px rgba(0, 0, 0, 0);
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 0 17px;
+    width: 200px;
+}
+.amKatman2 a:hover {
+    background: url("../images/i.png") no-repeat scroll 0 -239px rgba(0, 0, 0, 0);
+    color: #660002;
+}
+.amKatman2 li {
+    height: 30px;
+    line-height: 30px;
+}
+.amKatman2 li ul {
+    border-bottom: 1px solid #E57174;
+    display: none;
+    float: left;
+    height: auto;
+    left: 217px;
+    position: absolute;
+    top: 0;
+    width: 217px;
+    z-index: 101;
+}
+.AcilirMenu li:hover > ul {
+    display: block;
+}
+.GercekHesapAc {
+    background: url("../images/i.png") repeat scroll -307px -70px rgba(0, 0, 0, 0);
+    display: block;
+    height: 65px;
+    width: 230px;
+}
+.DemoHesapAc {
+    background: url("../images/i.png") repeat scroll -537px -70px rgba(0, 0, 0, 0);
+    display: block;
+    height: 65px;
+    width: 230px;
+}
